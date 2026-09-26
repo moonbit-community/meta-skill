@@ -1,6 +1,6 @@
 ///|
 fn check_item(status : String, message : String) -> CheckItem {
-  { status, message }
+  { status, message, }
 }
 
 ///|
