@@ -18,5 +18,5 @@ supported_targets = "wasm"
 
 import {
   "moonbit-community/miniio@0.2.0",
-  "moonbitlang/x@0.4.43",
+  "moonbitlang/x@0.5.5",
 }
