@@ -2,7 +2,7 @@
 let default_description = "Build and run a portable MoonBit WASM skill."
 
 ///|
-let miniio_version = "0.2.0"
+let miniio_version = "0.2.1"
 
 ///|
 priv struct TemplateFile {
