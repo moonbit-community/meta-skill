@@ -83,7 +83,7 @@ test "template_files write moon.mod format" {
   assert_true(content.contains("name = \"username/demo-skill\""))
   assert_true(content.contains("preferred_target = \"wasm\""))
   assert_true(content.contains("supported_targets = \"wasm\""))
-  assert_true(content.contains("\"moonbit-community/miniio@0.2.0\""))
+  assert_true(content.contains("\"moonbit-community/miniio@0.2.1\""))
 }
 
 ///|
@@ -309,7 +309,7 @@ test "check does not validate miniio version" {
     items,
     Some(
       moon_mod_content("user/demo-skill", "Demo skill").replace_all(
-        old="miniio@0.2.0",
+        old="miniio@0.2.1",
         new="miniio@9.9.9",
       ),
     ),
